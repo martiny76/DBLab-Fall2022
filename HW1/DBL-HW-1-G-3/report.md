@@ -1,9 +1,5 @@
-<style>
-    h1,h2,h3,h4,h5,h6, ol, ul, p {
-        direction: rtl;
-        text-align: right;
-    }
-</style>
+<div dir="auto">
+    
 
 # تمرین اول آزمایشگاه پایگاه داده
 
@@ -292,3 +288,5 @@ SELECT * FROM laptop;
 
 ![select monitor](./images/f-2.png)
 ![select laptop](./images/f-3.png)
+
+</div>
