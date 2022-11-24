@@ -1,1 +1,16 @@
-doctor table
+Doctor:
+ID
+firstName
+lastName
+specialty
+days
+
+Patient:
+ID
+firstName
+lastName
+age
+sickness
+sicknessRecord
+doctorName
+entryDate‏
