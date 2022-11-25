@@ -1,0 +1,15 @@
+Doctor:
+ID
+firstName
+lastName
+specialty
+
+Patient:
+ID
+firstName
+lastName
+age
+sickness
+doctorName
+entryDate‏
+costAmount
