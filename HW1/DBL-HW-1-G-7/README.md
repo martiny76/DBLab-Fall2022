@@ -135,6 +135,16 @@ insert into TABLE_NAME (ATTRIBUTES_ORDER) values (ATTRIBUTES_VALUE);
 
 &nbsp;
 
+#### الگوی استفاده از `where` بصورت زیر است:
+```
+select ATTRIBUTE_NAME from TABLE_NAME where CONDITION
+```
+##### در مثال زیر بیمارانی را که بعد از تاریخ مذکور ثبت شده اند را مشخص میکند.
+![image](images/Q5-2.png)
+
+##### در این نمونه هم شرط خاصی را روی هزینه پرداختی بیماران قرار دادیم و پاسخ نمایش داده میشود.
+![image](images/Q5-3.png)
+
 #### الگوی استفاده از کلمه کلیدی `like` بصورت زیر است:
 ```
 where ATTRIBUTE_NAME like PATTERN
@@ -144,11 +154,3 @@ where ATTRIBUTE_NAME like PATTERN
 ![image](images/Q5-1.png)
 ##### علامت `%` به این معناست که هرتعداد نا محدودی میتواند موجود باشد.
 ##### علامت `_` به معنای تعداد محدود و به اندازه ی همین علامت مکان برای کاراکتر هاست.
-#### الگوی استفاده از `where` بصورت زیر است:
-```
-select ATTRIBUTE_NAME from TABLE_NAME where CONDITION
-```
-##### در مثال زیر بیمارانی را که بعد از تاریخ مذکور ثبت شده اند را مشخص میکند.
-![image](images/Q5-2.png)
-##### در این نمونه هم شرط خاصی را روی هزینه پرداختی بیماران قرار دادیم و پاسخ نمایش داده میشود.
-![image](images/Q5-3.png)
