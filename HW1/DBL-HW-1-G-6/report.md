@@ -85,11 +85,17 @@
 ## ب
 
 در محیط PgAdmin بر روی *Databases* راست کلیک کرده و `Create` و بعد `Database` را انتخاب میکنیم.
+
 ![Create Database](./images/1.png)
+
  سپس نام پایگاه داده را مشخص میکنیم و `Save` را انتخاب میکنیم.
+
 ![Create Database](./images/2.png)
+
 برای بررسی درستی ایجاد شدن پایگاه داده در محیط psql از دستور `\l` استفاده میکنیم.
+
 ![Create Database](./images/3.png)
+
 همچنین میتوانیم پایگاه داده را با دستور زیر ایجاد کنیم.
 
 ```sql
@@ -101,9 +107,12 @@ CREATE DATABASE 'RealEstate';
 به دلیل رفرنس های موجود در جداول ما باید ابتدا جدول مالک را ایجاد کنیم و سپس جدول مسکن را ایجاد کنیم. برای ایجاد جدول مالک از محیط PgAdmin استفاده میکنیم.
 
 ابتدا بر روی *Tables* راست کلیک کرده و `Create` و بعد `Table` را انتخاب میکنیم.
+
 ![Create Table](./images/4.png)
 
+
 در قسمت `General` نام جدول را مشخص میکنیم و در قسمت `Columns` مشخصات جدول را مشخص میکنیم.
+
 ![Create Table](./images/5.png)
 ![Create Table](./images/6.png)
 
@@ -128,6 +137,7 @@ CREATE TYPE PropertyType AS ENUM ('apartment', 'villa', 'land', 'shop');
 ```
 
 از محیط PgAdmin بررسی میکنیم که ENUM ها به درستی ایجاد شده اند.
+
 ![Check ENUMs](./images/7.png)
 
 سپس برای ایجاد جدول مسکن در پایگاه داده میتوانیم از دستور زیر استفاده کنیم.
@@ -152,6 +162,7 @@ CREATE TABLE "Property" (
 ```
 
 درستی ایجاد شدن جدول را در محیط PgAdmin بررسی میکنیم.
+
 ![Check Table](./images/8.png)
 
 ## د
