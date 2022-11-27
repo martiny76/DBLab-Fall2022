@@ -84,6 +84,7 @@ COMMENT ON DATABASE "Automobile"
 
 - در قسمت `Database`، نام پایگاه داده و در قسمت `Comment`، توضیح مختصری در مورد آن می نویسیم.
 
+![](img/8.png)
 ![](img/9.png)
 
 - در قسمت `Definition`، نوع `Type` و `Label` های آن را وارد می کنیم و آن را ذخیره می کنیم.  
