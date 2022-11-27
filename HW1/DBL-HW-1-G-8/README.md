@@ -2,5 +2,5 @@
 * a database for car company and dealer, including a table for cars and car dealer.
 * the tables are exemplified from IKCO.
 ## collaborators:
-* amir kasaei
-* amir ezzati
+* [amir kasaei](https://github.com/amirkasaei)
+* [amir ezzati](https://github.com/amirezzati)
