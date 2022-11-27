@@ -1,4 +1,4 @@
-<div dir="auto">
+<div dir="rtl">
 
 # گزارش تمرین اول آز پایگاه داده
 
@@ -10,8 +10,8 @@
 
 ## الف) صفات خودرو و نمایندگی فروش، بر اساس سایت ایران خودرو در نظر گرفته شده است.
 
-![](img/1.png)
-![](img/2.png)
+<img src="img/1.png" alt="drawing" width="500"/>
+<img src="img/2.png" alt="drawing" width="500"/>
 
 ### **صفات خودرو**
 
@@ -35,7 +35,7 @@
 - حجم فضاي صندوق عقب (Lit)
 - قیمت
 
-### **صفات نمایندگی فروش:**
+### **صفات نمایندگی فروش**
 
 - نام نمایندگی
 - کد نمایندگی
@@ -277,7 +277,7 @@ INSERT INTO dealer (
 
 ## ه) با توجه به محدودیت های تعریف شده، چند مورد داده نادرست وارد جدول می کنیم.
 
-- در جدول خودرو، قیمت، ابعاد ماشین، حجم موتور و ... باید بزرگ¬تر از صفر باشند. برای نمونه، قیمت خودرو را صفر وارد می کنیم.
+- در جدول خودرو، قیمت، ابعاد ماشین، حجم موتور و ... باید بزرگ تر از صفر باشند. برای نمونه، قیمت خودرو را صفر وارد می کنیم.
 
 ```sql
 INSERT INTO car (company, model, car_class, engine, engine_capacity, max_engine_power, max_engine_torque, poppet_num, fuel, max_speed, gearbox, fuel_consumption, car_length, car_width, car_height, car_weight, fuel_capacity, trunk_capacity, price) VALUES ('IKCO', '405', 'A (segment mini cars)', 'TU7', 1587, 105, 142, 16, 'Petrol', 210, '5-speed manual', 6.4, 3835, 1652, 1426, 1025, 50, 245, 0);
@@ -303,20 +303,20 @@ INSERT INTO dealer (dealer_name, manager_name, dealer_address, city, area, deale
 
 - با استفاده از دستور زیر، همه، سطرهای جدول خودرو را نمایش می دهیم. داده ها بر اساس `id`، از کوچک به بزرگ مرتب شده اند.
 
-![](img/20.png)
-
 ```sql
 SELECT * FROM public.car
 ORDER BY id ASC
 ```
 
-- با استفاده از دستور زیر، همه، سطرهای جدول نمایندگی را نمایش می دهیم. داده ها بر اساس `id`، از کوچک به بزرگ مرتب شده اند.
+![](img/20.png)
 
-![](img/21.png)
+- با استفاده از دستور زیر، همه، سطرهای جدول نمایندگی را نمایش می دهیم. داده ها بر اساس `id`، از کوچک به بزرگ مرتب شده اند.
 
 ```sql
 SELECT * FROM public.dealer
 ORDER BY id ASC
 ```
+
+![](img/21.png)
 
 </div>
