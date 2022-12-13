@@ -23,10 +23,12 @@
 
 ## number of users in each address
 `select address as ad, count(user_name) as cnt from company group by address;`\
+\
 ![alt](img/command1.png)
 
 ## number of users in each address which are more than 2
 `select address as ad, count(user_name) as cnt from company group by address having count(user_name) > 2;`\
+\
 ![alt](img/command2.png)
 
 ## number of users in each address which have more than 50 average salary more than 50
